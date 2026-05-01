@@ -1,0 +1,61 @@
+{
+  "auth": {
+    "login": {
+      "title": "登录",
+      "username": "用户名",
+      "password": "密码",
+      "submit": "登录",
+      "forgotPassword": "忘记密码？",
+      "register": "注册新账号",
+      "errors": {
+        "required": "此字段为必填项",
+        "invalidCredentials": "用户名或密码错误"
+      }
+    },
+    "register": {
+      "title": "注册",
+      "username": "用户名",
+      "email": "电子邮箱",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "submit": "注册",
+      "login": "已有账号？登录",
+      "errors": {
+        "required": "此字段为必填项",
+        "invalidEmail": "请输入有效的电子邮箱地址",
+        "passwordLength": "密码长度至少为6位",
+        "passwordMismatch": "两次输入的密码不一致",
+        "general": "注册失败，请稍后重试"
+      }
+    },
+    "forgotPassword": {
+      "title": "忘记密码",
+      "description": "请输入您的电子邮箱地址，我们将向您发送重置密码的链接",
+      "email": "电子邮箱",
+      "submit": "发送重置链接",
+      "backToLogin": "返回登录",
+      "success": "重置密码链接已发送到您的邮箱",
+      "errors": {
+        "required": "此字段为必填项",
+        "invalidEmail": "请输入有效的电子邮箱地址",
+        "general": "发送失败，请稍后重试"
+      }
+    },
+    "resetPassword": {
+      "title": "重置密码",
+      "password": "新密码",
+      "confirmPassword": "确认新密码",
+      "submit": "重置密码",
+      "invalidToken": "无效的重置链接",
+      "invalidTokenDescription": "此重置密码链接无效或已过期",
+      "requestNewToken": "重新请求重置链接",
+      "errors": {
+        "required": "此字段为必填项",
+        "passwordLength": "密码长度至少为6位",
+        "passwordMismatch": "两次输入的密码不一致",
+        "invalidToken": "无效的重置链接",
+        "general": "重置失败，请稍后重试"
+      }
+    }
+  }
+} 

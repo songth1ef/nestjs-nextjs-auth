@@ -1,0 +1,61 @@
+{
+  "auth": {
+    "login": {
+      "title": "Login",
+      "username": "Username",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot Password?",
+      "register": "Register",
+      "errors": {
+        "required": "This field is required",
+        "invalidCredentials": "Invalid username or password"
+      }
+    },
+    "register": {
+      "title": "Register",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Sign Up",
+      "login": "Already have an account? Login",
+      "errors": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address",
+        "passwordLength": "Password must be at least 6 characters",
+        "passwordMismatch": "Passwords do not match",
+        "general": "Registration failed, please try again later"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "description": "Enter your email address and we'll send you a link to reset your password",
+      "email": "Email",
+      "submit": "Send Reset Link",
+      "backToLogin": "Back to Login",
+      "success": "Password reset link has been sent to your email",
+      "errors": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address",
+        "general": "Failed to send, please try again later"
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "submit": "Reset Password",
+      "invalidToken": "Invalid Reset Link",
+      "invalidTokenDescription": "This password reset link is invalid or has expired",
+      "requestNewToken": "Request New Reset Link",
+      "errors": {
+        "required": "This field is required",
+        "passwordLength": "Password must be at least 6 characters",
+        "passwordMismatch": "Passwords do not match",
+        "invalidToken": "Invalid reset link",
+        "general": "Reset failed, please try again later"
+      }
+    }
+  }
+} 

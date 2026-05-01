@@ -21,6 +21,30 @@ const nextConfig = {
     webpackBuildWorker: false,
     // 增加ServerComponents建超时
     serverComponentsExternalPackages: []
+  },
+  // 添加API代理配置
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'http://localhost:8101/api/:path*',
+        basePath: false
+      }
+    ]
+  },
+  // 添加CORS配置
+  async headers() {
+    return [
+      {
+        source: '/api/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Credentials', value: 'true' },
+          { key: 'Access-Control-Allow-Origin', value: '*' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,DELETE,PATCH,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version' },
+        ]
+      }
+    ]
   }
 }
 

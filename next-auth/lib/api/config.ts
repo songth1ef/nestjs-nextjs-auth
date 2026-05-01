@@ -1,14 +1,12 @@
-import { getBaseUrl } from './utils'
-
 export const API_CONFIG = {
-  baseURL: getBaseUrl(),
+  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8101',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
   },
   withCredentials: true,
-}
+};
 
 export const API_ENDPOINTS = {
   auth: {
@@ -28,4 +26,4 @@ export const API_ENDPOINTS = {
   oauth: {
     clients: '/api/oauth/clients',
   },
-} 
+}; 

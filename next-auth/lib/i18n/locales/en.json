@@ -1,0 +1,63 @@
+{
+  "auth": {
+    "login": {
+      "title": "Login",
+      "username": "Username or Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot Password?",
+      "register": "Don't have an account? Register",
+      "errors": {
+        "invalidCredentials": "Invalid username or password",
+        "required": "This field is required"
+      }
+    },
+    "register": {
+      "title": "Register",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Register",
+      "login": "Already have an account? Login",
+      "errors": {
+        "usernameExists": "Username already exists",
+        "emailExists": "Email already exists",
+        "passwordMismatch": "Passwords do not match"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "submit": "Send Reset Link",
+      "backToLogin": "Back to Login",
+      "success": "Password reset link has been sent to your email",
+      "errors": {
+        "emailNotFound": "Email not found",
+        "required": "This field is required"
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "submit": "Reset Password",
+      "success": "Password has been reset successfully",
+      "errors": {
+        "invalidToken": "Invalid or expired token",
+        "passwordMismatch": "Passwords do not match"
+      }
+    }
+  },
+  "common": {
+    "language": "Language",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation successful"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: {date}",
+    "content": "This privacy policy describes how we collect, use, and protect your personal information."
+  }
+} 
